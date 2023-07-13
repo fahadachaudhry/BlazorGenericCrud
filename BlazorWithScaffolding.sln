@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORM", "ORM\ORM.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{826F5CFF-C739-42B4-A94A-8DD2760A0BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericWebApi", "GenericWebApi\GenericWebApi.csproj", "{C6A889FB-557E-4095-9084-0A5755BDCCC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericWebApi", "GenericWebApi\GenericWebApi.csproj", "{C6A889FB-557E-4095-9084-0A5755BDCCC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

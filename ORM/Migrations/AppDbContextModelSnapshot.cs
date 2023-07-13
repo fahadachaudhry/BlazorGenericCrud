@@ -37,6 +37,84 @@ namespace ORM.Migrations
 
                     b.ToTable("TodoItems");
                 });
+
+            modelBuilder.Entity("Common.Model.UserProfile", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(36)
+                        .HasColumnType("varchar(36)");
+
+                    b.Property<string>("Department")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Designation")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserProfiles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc1",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        },
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc2",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        },
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc3",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        },
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc4",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        },
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc5",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        },
+                        new
+                        {
+                            Id = "7d0f3035-8216-4537-971e-734f05ad7dc6",
+                            Department = "Department Comes Here",
+                            Description = "This is some description",
+                            Designation = "This is the Designation",
+                            Name = "Some Name"
+                        });
+                });
 #pragma warning restore 612, 618
         }
     }

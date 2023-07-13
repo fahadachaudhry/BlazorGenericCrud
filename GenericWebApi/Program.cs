@@ -1,7 +1,12 @@
+using GenericWebApi.ServiceExtensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Register Repositories
+builder.Services.RegisterRepositories(builder.Environment);
 
+
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

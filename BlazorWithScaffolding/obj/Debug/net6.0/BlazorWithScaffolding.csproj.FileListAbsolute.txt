@@ -10,6 +10,8 @@ D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debu
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -31,6 +33,8 @@ D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debu
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -41,14 +45,17 @@ D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debu
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.JSInterop.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\MudBlazor.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\MySqlConnector.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.CodeDom.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.IO.Pipelines.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\bin\Debug\net6.0\System.Security.Permissions.dll

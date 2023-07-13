@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J9Lef3C8+4OCMkeCPIl47U2byG8B02Er94LUCiK0f3w=",
+  "Hash": "GMaMsvDnmk479HfHJBn0U1ydlMStz+j0KHDjfgLxxzg=",
   "Source": "BlazorWithScaffolding",
   "BasePath": "_content/BlazorWithScaffolding",
   "Mode": "Default",
@@ -1035,6 +1035,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\WB\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.19\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\WB\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
       "Identity": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorWithScaffolding.styles.css",

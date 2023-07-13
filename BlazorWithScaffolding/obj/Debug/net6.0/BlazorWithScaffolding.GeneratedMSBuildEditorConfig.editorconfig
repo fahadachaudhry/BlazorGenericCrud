@@ -20,10 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/Blog.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/BlogArticle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ0FydGljbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,16 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/Landing.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/Pricing.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpY2luZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/ThatNewPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhhdE5ld1BhZ2UucmF6b3I=
+[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/Components/CustomizedDataGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ3VzdG9taXplZERhdGFHcmlkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/HeaderNav.razor]

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Repository.Repositories;
 
 namespace GenericWebApi.Controllers
 {
@@ -7,10 +8,13 @@ namespace GenericWebApi.Controllers
     public class TodoItemsController : Controller
     {
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly UserProfileRepo _userProfileRepo;
 
-        public TodoItemsController(ILogger<WeatherForecastController> logger)
+        public TodoItemsController(ILogger<WeatherForecastController> logger,
+            UserProfileRepo userProfileRepo)
         {
             _logger = logger;
+            _userProfileRepo = userProfileRepo;
         }
 
         [HttpGet("all")]
@@ -24,6 +28,12 @@ namespace GenericWebApi.Controllers
                 "value4",
                 "value5",
             };
+        }
+
+        [HttpGet("test-user-profiles")]
+        public IActionResult ListUserProfiles()
+        {
+            return Ok(_userProfileRepo.GetAll().ToList());
         }
 
     }

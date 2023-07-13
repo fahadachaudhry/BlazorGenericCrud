@@ -1,11 +1,25 @@
 ﻿@page "/"
+@inject ISnackbar SnackbarService
 
-<HeaderNav />
+<h1>Ready for business</h1>
 
-<Landing />
 
-<Blog />
+<MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@OnClick">Show a snackbar with a custom component</MudButton>
 
-<Pricing />
-
-<ThatNewPage />
+@code {
+    private void OnClick()
+    {
+        SnackbarService.Add("Hello");
+        //         SnackbarService.Add
+        //(
+        //@<div>
+        //    <h3>Hi from a RenderFragment</h3>
+        //    <ul>
+        //        <li>Here's a regular item</li>
+        //        <li>Here's a <strong>bold item</strong></li>
+        //        <li>Here's an <em>italicized item</em></li>
+        //    </ul>
+        //</div>
+        //);
+    }
+}

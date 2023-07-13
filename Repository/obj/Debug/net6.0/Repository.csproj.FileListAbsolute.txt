@@ -15,6 +15,11 @@ D:\Practices\BlazorPractice\BlazorWithDatabase\Repository\obj\Debug\net6.0\Repos
 D:\Practices\BlazorPractice\BlazorWithDatabase\Repository\obj\Debug\net6.0\refint\Repository.dll
 D:\Practices\BlazorPractice\BlazorWithDatabase\Repository\obj\Debug\net6.0\Repository.pdb
 D:\Practices\BlazorPractice\BlazorWithDatabase\Repository\obj\Debug\net6.0\ref\Repository.dll
+D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\Repository.deps.json
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\Repository.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\Repository.pdb
@@ -22,11 +27,6 @@ D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\Co
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\ORM.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\Common.pdb
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\bin\Debug\net6.0\ORM.pdb
-D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
-D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
-D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
-D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
-D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\Repository.dll
 D:\Practices\BlazorPractice\BlazorWithScaffolding\Repository\obj\Debug\net6.0\refint\Repository.dll
