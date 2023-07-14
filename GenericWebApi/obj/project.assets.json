@@ -1793,11 +1793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\GenericWebApi\\GenericWebApi.csproj",
+      "projectUniqueName": "D:\\Work\\BlazorGenericRepoCRUD\\GenericWebApi\\GenericWebApi.csproj",
       "projectName": "GenericWebApi",
-      "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\GenericWebApi\\GenericWebApi.csproj",
+      "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\GenericWebApi\\GenericWebApi.csproj",
       "packagesPath": "C:\\Users\\WB\\.nuget\\packages\\",
-      "outputPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\GenericWebApi\\obj\\",
+      "outputPath": "D:\\Work\\BlazorGenericRepoCRUD\\GenericWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1815,8 +1815,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Repository\\Repository.csproj"
+            "D:\\Work\\BlazorGenericRepoCRUD\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\Repository\\Repository.csproj"
             }
           }
         }

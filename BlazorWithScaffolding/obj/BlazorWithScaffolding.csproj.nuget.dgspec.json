@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj": {}
+    "D:\\Work\\BlazorGenericRepoCRUD\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj": {}
   },
   "projects": {
-    "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj": {
+    "D:\\Work\\BlazorGenericRepoCRUD\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj",
+        "projectUniqueName": "D:\\Work\\BlazorGenericRepoCRUD\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj",
         "projectName": "BlazorWithScaffolding",
-        "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj",
+        "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\BlazorWithScaffolding\\BlazorWithScaffolding.csproj",
         "packagesPath": "C:\\Users\\WB\\.nuget\\packages\\",
-        "outputPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\BlazorWithScaffolding\\obj\\",
+        "outputPath": "D:\\Work\\BlazorGenericRepoCRUD\\BlazorWithScaffolding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj": {
-                "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj"
+              "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj": {
+                "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj"
               }
             }
           }
@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[6.0.19, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[6.7.0, )"
@@ -103,14 +107,14 @@
         }
       }
     },
-    "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj": {
+    "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj",
+        "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\WB\\.nuget\\packages\\",
-        "outputPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\obj\\",
+        "outputPath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WB\\AppData\\Roaming\\NuGet\\NuGet.Config",

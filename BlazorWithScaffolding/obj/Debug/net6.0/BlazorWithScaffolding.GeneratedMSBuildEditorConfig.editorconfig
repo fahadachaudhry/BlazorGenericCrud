@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorWithScaffolding
 build_property.RootNamespace = BlazorWithScaffolding
-build_property.ProjectDir = D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding\
+build_property.ProjectDir = D:\Work\BlazorGenericRepoCRUD\BlazorWithScaffolding\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Practices\BlazorPractice\BlazorWithScaffolding\BlazorWithScaffolding
+build_property.MSBuildProjectDirectory = D:\Work\BlazorGenericRepoCRUD\BlazorWithScaffolding
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/App.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/BlogArticle.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Pages/BlogArticle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ0FydGljbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/Index.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/Components/CustomizedDataGrid.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Shared/Components/CustomizedDataGrid.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcQ3VzdG9taXplZERhdGFHcmlkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/HeaderNav.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Shared/HeaderNav.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlck5hdi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/LoginDisplay.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/_Imports.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/MainLayout.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4hrpwuarrz
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Shared/NavMenu.razor]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-uvs9q1eo9b
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Areas/Identity/Pages/Account/LogOut.cshtml]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/Error.cshtml]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/_Host.cshtml]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Practices/BlazorPractice/BlazorWithScaffolding/BlazorWithScaffolding/Pages/_Layout.cshtml]
+[D:/Work/BlazorGenericRepoCRUD/BlazorWithScaffolding/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

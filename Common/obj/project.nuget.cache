@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esW9Z9hSW14SrwRgMr1gFHPyr1gTBeMDCG8gASqd1Cl3B9LJ3pus2QkTqstT1qQU7esQ6hqETizOUtss6cAFgA==",
+  "dgSpecHash": "gsZO4cbYFK1UI8nENAKrCYlAKbbmKkPr7Z1YNPfpmt+SHFpJ3AdpYmP61eE26vGc+N1i1jFM6fgJ6g1tqMTFxg==",
   "success": true,
-  "projectFilePath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj",
+  "projectFilePath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WB\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.19\\microsoft.aspnetcore.authorization.6.0.19.nupkg.sha512",
     "C:\\Users\\WB\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.19\\microsoft.aspnetcore.components.6.0.19.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0zXDcH44HfXaq7ShB/K+Jgohlpl6bpU4EyB0lOplHq2L/dpVZAOdoJEA4+g/c9NTsuSUpumg5+0cD8kB5aK/jw==",
+  "dgSpecHash": "ENMOf8cz95IqaOv52uBpxM00jiGKAId9dQM47ZHyZeIk0vJMvb6ilsdlxhb111b9l27kgGwP0lDYa43VGZ1iUQ==",
   "success": true,
-  "projectFilePath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\ORM\\ORM.csproj",
+  "projectFilePath": "D:\\Work\\BlazorGenericRepoCRUD\\ORM\\ORM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WB\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\WB\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.19\\microsoft.aspnetcore.authorization.6.0.19.nupkg.sha512",

@@ -404,11 +404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj",
+      "projectUniqueName": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\Common.csproj",
+      "projectPath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\WB\\.nuget\\packages\\",
-      "outputPath": "D:\\Practices\\BlazorPractice\\BlazorWithScaffolding\\Common\\obj\\",
+      "outputPath": "D:\\Work\\BlazorGenericRepoCRUD\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WB\\AppData\\Roaming\\NuGet\\NuGet.Config",
