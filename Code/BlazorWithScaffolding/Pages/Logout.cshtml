@@ -1,0 +1,18 @@
+﻿@page "/Logout"
+@using BlazorWithScaffolding.Pages;
+@using Microsoft.AspNetCore.Identity
+@attribute [IgnoreAntiforgeryToken]
+@inject SignInManager<IdentityUser> SignInManager
+
+<h1 class="text-8xl">This is the logout page</h1>
+
+@functions {
+    public async Task<IActionResult> OnPost()
+    {
+        if (SignInManager.IsSignedIn(User))
+        {
+            await SignInManager.SignOutAsync();
+        }
+        return Redirect("Identity/Account/Login");
+    }
+}
