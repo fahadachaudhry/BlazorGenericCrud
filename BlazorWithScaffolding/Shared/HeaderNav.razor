@@ -1,21 +1,75 @@
-﻿
-<MudAppBar Class="bg-transparent shadow-none drop-shadow-none">
-    <MudIconButton Color="Color.Dark" Icon="@Icons.Material.Filled.Menu" Edge="Edge.Start" OnClick="@((e) => HandleDrawerToggle())" />
-    <MudSpacer />
-    <MudIconButton Color="Color.Dark" Icon="@Icons.Material.Outlined.Notifications" />
-    <MudIconButton Color="Color.Dark" Icon="@Icons.Material.Outlined.PushPin" />
-    <MudIconButton Color="Color.Dark" Icon="@Icons.Material.Outlined.PeopleAlt" />
-    <MudIconButton Color="Color.Dark" Icon="@Icons.Material.Outlined.MoreVert" />
-</MudAppBar>
+﻿@using Microsoft.AspNetCore.Identity;
+
+@inject NavigationManager NavigationManager
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<MudIconButton Icon="@Icons.Material.Filled.Menu"
+               Color="Color.Dark"
+               Edge="Edge.Start"
+               OnClick="((e) => HandleDrawerToggle())" />
+<MudSpacer />
+<AuthorizeView>
+    <Authorized>
+        <div onclick="@ToggleOpen"
+             class="absolute top-0 left-0 h-screen w-full bg-transparent @(_isPreferencesDialogOpen ? "block" : "hidden")"></div>
+        <div class="relative">
+            <button type="button" onclick="@ToggleOpen">
+                <MudAvatar Color="Color.Dark">@context.User.Identity.Name.Substring(0,1)</MudAvatar>
+            </button>
+            <MudPopover Elevation="1" AnchorOrigin="Origin.BottomLeft" Fixed="true" Open="@_isPreferencesDialogOpen" Class="p-4">
+                <div class="flex items-center justify-center flex-col">
+                    <MudAvatar Size="Size.Large" Class="m-2" Color="Color.Dark">@context.User.Identity.Name.Substring(0,1)</MudAvatar>
+                    <MudText Class="mb-10">@context.User.Identity.Name</MudText>
+                    <MudButton StartIcon="@Icons.Filled.Logout"
+                               Variant="Variant.Outlined"
+                               Color="Color.Warning"
+                               Href="/Logout">
+                        Logout
+                    </MudButton>
+                </div>
+            </MudPopover>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <MudButton StartIcon="@Icons.Filled.PersonAddAlt"
+                   Variant="Variant.Text"
+                   Color="Color.Dark"
+                   Href="/Identity/Account/Register">
+            Sign up
+        </MudButton>
+        <MudButton StartIcon="@Icons.Filled.Login"
+                   Variant="Variant.Text"
+                   Color="Color.Dark"
+                   Href="/Identity/Account/Login">
+            Login
+        </MudButton>
+    </NotAuthorized>
+</AuthorizeView>
 
 
 @code {
-
     [Parameter]
     public EventCallback DrawerToggle { get; set; }
+
+    public bool _isPreferencesDialogOpen;
+
+    public void ToggleOpen()
+    {
+        if (_isPreferencesDialogOpen)
+        {
+            _isPreferencesDialogOpen = false;
+        }
+        else
+        {
+            _isPreferencesDialogOpen = true;
+        }
+    }
 
     private void HandleDrawerToggle()
     {
         DrawerToggle.InvokeAsync();
     }
+
+
 }

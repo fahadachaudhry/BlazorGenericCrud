@@ -8,19 +8,19 @@
 <MudThemeProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
-
+@Body
 
 <MudLayout>
-    <HeaderNav DrawerToggle="DrawerToggle" />
+    <MudAppBar Color="@Color.Transparent" Elevation="0" Fixed="true">
+        <HeaderNav DrawerToggle="DrawerToggle" />
+    </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" Elevation="2">
         <MudDrawerHeader>
             <MudText Typo="Typo.h5" Class="mt-1">Application</MudText>
         </MudDrawerHeader>
-        @*NavMenu*@
     </MudDrawer>
     <MudMainContent>
-        @Body
-    </MudMainContent> 
+    </MudMainContent>
 </MudLayout>
 
 
