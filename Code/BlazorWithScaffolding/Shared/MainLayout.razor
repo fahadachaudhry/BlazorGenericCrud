@@ -1,6 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @using System.Net.Http
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 
 <PageTitle>BlazorWithScaffolding</PageTitle>
@@ -10,23 +11,31 @@
 <MudSnackbarProvider />
 @Body
 
-<MudLayout>
-    <MudAppBar Color="@Color.Transparent" Elevation="0" Fixed="true">
-        <HeaderNav DrawerToggle="DrawerToggle" />
-    </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="2">
-        <MudDrawerHeader>
-            <MudText Typo="Typo.h5" Class="mt-1">Application</MudText>
-        </MudDrawerHeader>
-    </MudDrawer>
-    <MudMainContent>
-    </MudMainContent>
-</MudLayout>
+<AuthorizeView>
+    <Authorized>
+        <MudLayout>
+            <MudAppBar Color="@Color.Transparent" Elevation="0" Fixed="true">
+                <HeaderNav DrawerToggle="DrawerToggle" />
+            </MudAppBar>
+            <MudDrawer @bind-Open="_drawerOpen" Elevation="2">
+                <MudDrawerHeader>
+                    <MudText Typo="Typo.h5" Class="mt-1">Application</MudText>
+                </MudDrawerHeader>
+            </MudDrawer>
+            <MudMainContent>
+            </MudMainContent>
+        </MudLayout>
+    </Authorized>
+    <NotAuthorized>
+        @{
+            NavigationManager.NavigateTo("Identity/Account/Login");
+        }
+    </NotAuthorized>
+</AuthorizeView>
 
 
 @code {
     bool _drawerOpen = false;
-
     void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;

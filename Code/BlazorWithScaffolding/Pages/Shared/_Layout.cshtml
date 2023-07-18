@@ -64,16 +64,10 @@
     </footer>*@
 
     <div class="w-full h-screen flex items-center justify-between m-0">
-        <div class="w-1/2 h-full bg-no-repeat bg-cover bg-center"
-             style="background-image: url('https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80')">
-        </div>
-        <div class="w-1/2 h-full overflow-hidden flex items-center justify-center">
-            <div class="w-80">
-                <partial name="_CookieConsentPartial" optional />
-                <main role="main" class="pb-1">
-                    @RenderBody()
-                </main>
-            </div>
+        <div class="w-full h-full">
+            <main role="main" class="pb-1">
+                @RenderBody()
+            </main>
         </div>
     </div>
 
